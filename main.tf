@@ -13,8 +13,8 @@ resource "aws_ecs_service" "this" {
 
   network_configuration {
     assign_public_ip = true
-    subnets          = ["subnet-012a846b"]
-    security_groups  = ["sg-0de78630e82340821"]
+    subnets          = var.subnets
+    security_groups  = var.security_groups
   }
 
   load_balancer {

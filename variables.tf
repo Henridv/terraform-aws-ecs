@@ -9,6 +9,14 @@ variable "cluster_arn" {
   default = null
 }
 
+variable "subnets" {
+  type = list
+}
+
+variable "security_groups" {
+  type = list
+}
+
 variable "name" {
   description = "Prefix for the resource names"
 }
