@@ -1,5 +1,7 @@
 # AWS ECS Terraform module
 
+> ## Repository has been archived since this functionality can be achieved by resources and modules found in the official Terraform registry
+
 Terraform module which creates an [ECS service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) and optionally a cluster on AWS.
 
 ## Features
